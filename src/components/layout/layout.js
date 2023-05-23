@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom'
+import Navbar from './Navbar'
+
 const Layout = ({ children }) => {
     return (
         <>
             <header>
-                <h1>Bonjor, Damien Chauveau à l&apos;appareil.</h1>
-                <p>Actuellement Developeur Web.</p>
+                <Navbar />
             </header>
             <main>{children}</main>
             <footer>

@@ -3,35 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
-header{
+.header {
     height: 70vh;
     padding: 3em;
 
     background-color: grey;
-    background-image: url(./assets/images/header.jpg);
+    background-image: url(../images/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     color: white;
 }
-header h1{
+.header h1 {
     font-size: 3em;
 }
-header p{
+.header p {
     font-size: 2em;
 }
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     margin-top: 1em;
 }
-section{
+section {
     width: 80%;
     margin-bottom: 1em;
 }
 
-footer{
+footer {
     text-align: center;
 }
