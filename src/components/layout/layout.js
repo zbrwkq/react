@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
             </header>
             <main>{children}</main>
             <footer>
-                <p>CHAUVEAU DAMIEN © Tout droit réservé</p>
+                <p>CHAUVEAU DAMIEN, 2023  © Tout droit réservé</p>
             </footer>
         </>
     )
